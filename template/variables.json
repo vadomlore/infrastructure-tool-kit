@@ -1,0 +1,15 @@
+{
+  "file": "variables.tf",
+  "data": [
+    {
+      "name":"\"nas_server\"",
+      "value": "\"\"",
+      "b": true
+    },
+    {
+      "name":"\"SW_AGENT_ENABLE\"",
+      "value": "\"\"",
+      "b": true
+    }
+  ]
+}

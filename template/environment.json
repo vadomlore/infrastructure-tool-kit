@@ -1,0 +1,9 @@
+{
+  "file": "environment.yaml",
+  "data": [
+    {
+      "name":"SW_AGENT_ENABLE",
+      "value": "${sw_agent_enable}"
+    }
+  ]
+}

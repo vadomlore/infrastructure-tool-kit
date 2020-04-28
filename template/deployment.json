@@ -1,0 +1,13 @@
+{
+  "file": "deployment.tf",
+  "data": [
+    {
+      "name":"nas_server",
+      "value": "\"${var.nas_server}\""
+    },
+    {
+      "name":"sw_agent_enable",
+      "value": "\"${var.SW_AGENT_ENABLE}\""
+    }
+  ]
+}

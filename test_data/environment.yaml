@@ -1,0 +1,21 @@
+          env:
+            - name: LANG
+              value: C.UTF-8
+            - name: JAVA_HOME
+              value: /docker-java-home
+            - name: SPRING_PROFILES_ACTIVE
+              value: '${spring_profiles_active}'
+            - name: APIGATEWAY_URL
+              value: ${apigateway_url}
+            - name: OAUTH2_JWKS
+              value: ${oauth2_jwks}
+            - name: MULTILANGUAGEDOCUMENTSTORE_URL
+              value: ${multilanguagedocumentstore_url}
+            - name: EDGEAPPREPOSITORY_URL
+              value: ${edgeapprepository_url}
+            - name: mindsphere.security.oauth2.issuer.iam.jwksUrl
+              value: ${jwks_url}
+            - name: mindsphere.security.oauth2.issuer.iam.issuerUrl
+              value: '${issuer_url}'
+            - name: SW_AGENT_ENABLE
+              value: ${sw_agent_enable}
